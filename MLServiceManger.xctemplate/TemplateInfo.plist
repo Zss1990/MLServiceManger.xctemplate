@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos.ZGServiceManger</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>ZGServiceManger</string>
+	<key>Description</key>
+	<string>Basic Objective-C VIPER module template. Creates View, Interactor, Presenter, Router with protocols.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Template Author</key>
+	<string>Abdullah Selek - @zhushuaishuai</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>ZGServiceManger</string>
+			<key>Name</key>
+			<string>Module Prefix</string>
+			<key>Description</key>
+			<string>Class Prefix  You Need</string>
+			<key>Default</key>
+			<string></string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_ZGServiceManger___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Objective-C | Swift</string>
+			<key>Description</key>
+			<string>Language</string>
+			<key>Name</key>
+			<string>Language</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>___FILEBASENAMEASIDENTIFIER___ZGServiceManger</string>
+			<key>Values</key>
+			<array>
+				<string>Objective-C</string>
+				<string>Swift</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
